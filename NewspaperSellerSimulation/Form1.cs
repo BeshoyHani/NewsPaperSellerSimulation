@@ -16,16 +16,16 @@ namespace NewspaperSellerSimulation
     public partial class Form1 : Form
     {
         readonly SimulationSystem SimulationSystem = new SimulationSystem();
+        SimulationCore SimulationCore;
         public Form1()
         {
             InitializeComponent();
             GetDataFromFile();
             // Start Simulation
-
-
-
+            SimulationCore = new SimulationCore(SimulationSystem);
+            SimulationCore.RunServer();
             // End Simulation
-            string testingResult = TestingManager.Test(SimulationSystem, Constants.FileNames.TestCase1);
+            string testingResult = TestingManager.Test(SimulationSystem, Constants.FileNames.TestCase3);
             MessageBox.Show(testingResult);
         }
         //Read Data input from file
@@ -34,7 +34,7 @@ namespace NewspaperSellerSimulation
             
             String Path = "TestCases\\";
             // Choosing test case
-            Path += "TestCase1.txt";
+            Path += "TestCase3.txt";
             string[] lines = File.ReadAllLines(Path);
             SimulationSystem.NumOfNewspapers = int.Parse(lines[1]);
             SimulationSystem.NumOfRecords = int.Parse(lines[4]);
@@ -54,17 +54,21 @@ namespace NewspaperSellerSimulation
             }
         }
 
-        public List<DayTypeDistribution> AddDayTypeDis(string[] lines, int line_number) {
+        public List<DayTypeDistribution> AddDayTypeDis(string[] line, int line_number) {
             
-            List<DayTypeDistribution> dayTypeDistributionslist = new List<DayTypeDistribution>();
-            string[] DayTypeProb = lines[line_number].Split(',', (char)StringSplitOptions.RemoveEmptyEntries);
-            if (DayTypeProb.Length == 4) DayTypeProb = DayTypeProb.Where(w => w != lines[0]).ToArray();
+            List<DayTypeDistribution> dayTypeDistributionslist = new List<DayTypeDistribution>();         
+            string[] DayTypeProb = line[line_number].Split(',', (char)StringSplitOptions.RemoveEmptyEntries);
+            List<string> lines = new List<string>(DayTypeProb);
+            if (lines.Count == 4)
+            {
+                lines.RemoveAt(0);
+            }
             for (int i = 0; i < 3; i++)
             {
 
                 DayTypeDistribution dayTypeDistribution = new DayTypeDistribution();
                 dayTypeDistribution.DayType = (i == 0) ? Enums.DayType.Good : (i == 1) ? Enums.DayType.Fair : Enums.DayType.Poor;
-                dayTypeDistribution.Probability = decimal.Parse(DayTypeProb[i]);
+                dayTypeDistribution.Probability = decimal.Parse(lines[i]);
                 dayTypeDistributionslist.Add(dayTypeDistribution);
             }
 
