@@ -32,7 +32,7 @@ namespace NewspaperSellerSimulation
         public void GetDataFromFile()
         {
             
-            String Path = "F:\\University\\Forth Year\\[2021-2022] [Students] [First Term] Simulation\\Labs\\Lab 3\\NewsPaperSeller\\NewsPaperSellerSimulation\\NewspaperSellerSimulation\\TestCases\\";
+            String Path = "TestCases\\";
             // Choosing test case
             Path += "TestCase1.txt";
             string[] lines = File.ReadAllLines(Path);
