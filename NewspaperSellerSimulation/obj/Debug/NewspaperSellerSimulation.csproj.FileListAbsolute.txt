@@ -112,3 +112,15 @@ C:\Users\Osama\Desktop\[InventorySimulation]_Class Library\NewspaperSellerSimula
 C:\Users\Osama\Desktop\[InventorySimulation]_Class Library\NewspaperSellerSimulation_Students\NewspaperSellerSimulation\obj\Debug\NewspaperSellerSimulation.csprojResolveAssemblyReference.cache
 C:\Users\Osama\Desktop\[InventorySimulation]_Class Library\NewspaperSellerSimulation_Students\NewspaperSellerSimulation\obj\Debug\NewspaperSellerSimulation.Properties.Resources.resources
 C:\Users\Osama\Desktop\[InventorySimulation]_Class Library\NewspaperSellerSimulation_Students\NewspaperSellerSimulation\obj\Debug\NewspaperSellerSimulation.csproj.GenerateResource.Cache
+F:\University\Forth Year\[2021-2022] [Students] [First Term] Simulation\Labs\Lab 3\NewsPaperSeller\NewsPaperSellerSimulation\NewspaperSellerSimulation\bin\Debug\NewspaperSellerSimulation.exe.config
+F:\University\Forth Year\[2021-2022] [Students] [First Term] Simulation\Labs\Lab 3\NewsPaperSeller\NewsPaperSellerSimulation\NewspaperSellerSimulation\bin\Debug\NewspaperSellerSimulation.exe
+F:\University\Forth Year\[2021-2022] [Students] [First Term] Simulation\Labs\Lab 3\NewsPaperSeller\NewsPaperSellerSimulation\NewspaperSellerSimulation\bin\Debug\NewspaperSellerSimulation.pdb
+F:\University\Forth Year\[2021-2022] [Students] [First Term] Simulation\Labs\Lab 3\NewsPaperSeller\NewsPaperSellerSimulation\NewspaperSellerSimulation\bin\Debug\NewspaperSellerModels.dll
+F:\University\Forth Year\[2021-2022] [Students] [First Term] Simulation\Labs\Lab 3\NewsPaperSeller\NewsPaperSellerSimulation\NewspaperSellerSimulation\bin\Debug\NewspaperSellerModels.pdb
+F:\University\Forth Year\[2021-2022] [Students] [First Term] Simulation\Labs\Lab 3\NewsPaperSeller\NewsPaperSellerSimulation\NewspaperSellerSimulation\obj\Debug\NewspaperSellerSimulation.csprojAssemblyReference.cache
+F:\University\Forth Year\[2021-2022] [Students] [First Term] Simulation\Labs\Lab 3\NewsPaperSeller\NewsPaperSellerSimulation\NewspaperSellerSimulation\obj\Debug\NewspaperSellerSimulation.Properties.Resources.resources
+F:\University\Forth Year\[2021-2022] [Students] [First Term] Simulation\Labs\Lab 3\NewsPaperSeller\NewsPaperSellerSimulation\NewspaperSellerSimulation\obj\Debug\NewspaperSellerSimulation.csproj.GenerateResource.cache
+F:\University\Forth Year\[2021-2022] [Students] [First Term] Simulation\Labs\Lab 3\NewsPaperSeller\NewsPaperSellerSimulation\NewspaperSellerSimulation\obj\Debug\NewspaperSellerSimulation.csproj.CoreCompileInputs.cache
+F:\University\Forth Year\[2021-2022] [Students] [First Term] Simulation\Labs\Lab 3\NewsPaperSeller\NewsPaperSellerSimulation\NewspaperSellerSimulation\obj\Debug\NewspaperSellerSimulation.csproj.CopyComplete
+F:\University\Forth Year\[2021-2022] [Students] [First Term] Simulation\Labs\Lab 3\NewsPaperSeller\NewsPaperSellerSimulation\NewspaperSellerSimulation\obj\Debug\NewspaperSellerSimulation.exe
+F:\University\Forth Year\[2021-2022] [Students] [First Term] Simulation\Labs\Lab 3\NewsPaperSeller\NewsPaperSellerSimulation\NewspaperSellerSimulation\obj\Debug\NewspaperSellerSimulation.pdb

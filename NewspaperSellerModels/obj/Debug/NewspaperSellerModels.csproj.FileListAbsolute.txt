@@ -30,3 +30,9 @@ C:\Users\Osama\Desktop\[InventorySimulation]_Class Library\NewspaperSellerSimula
 C:\Users\Osama\Desktop\[InventorySimulation]_Class Library\NewspaperSellerSimulation_Students\NewspaperSellerModels\bin\Debug\NewspaperSellerModels.pdb
 C:\Users\Osama\Desktop\[InventorySimulation]_Class Library\NewspaperSellerSimulation_Students\NewspaperSellerModels\obj\Debug\NewspaperSellerModels.dll
 C:\Users\Osama\Desktop\[InventorySimulation]_Class Library\NewspaperSellerSimulation_Students\NewspaperSellerModels\obj\Debug\NewspaperSellerModels.pdb
+F:\University\Forth Year\[2021-2022] [Students] [First Term] Simulation\Labs\Lab 3\NewsPaperSeller\NewsPaperSellerSimulation\NewspaperSellerModels\bin\Debug\NewspaperSellerModels.dll
+F:\University\Forth Year\[2021-2022] [Students] [First Term] Simulation\Labs\Lab 3\NewsPaperSeller\NewsPaperSellerSimulation\NewspaperSellerModels\bin\Debug\NewspaperSellerModels.pdb
+F:\University\Forth Year\[2021-2022] [Students] [First Term] Simulation\Labs\Lab 3\NewsPaperSeller\NewsPaperSellerSimulation\NewspaperSellerModels\obj\Debug\NewspaperSellerModels.csprojAssemblyReference.cache
+F:\University\Forth Year\[2021-2022] [Students] [First Term] Simulation\Labs\Lab 3\NewsPaperSeller\NewsPaperSellerSimulation\NewspaperSellerModels\obj\Debug\NewspaperSellerModels.csproj.CoreCompileInputs.cache
+F:\University\Forth Year\[2021-2022] [Students] [First Term] Simulation\Labs\Lab 3\NewsPaperSeller\NewsPaperSellerSimulation\NewspaperSellerModels\obj\Debug\NewspaperSellerModels.dll
+F:\University\Forth Year\[2021-2022] [Students] [First Term] Simulation\Labs\Lab 3\NewsPaperSeller\NewsPaperSellerSimulation\NewspaperSellerModels\obj\Debug\NewspaperSellerModels.pdb
