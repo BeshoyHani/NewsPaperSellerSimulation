@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard4.5</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\NewspaperSellerModels\NewspaperSellerModels.csproj" />
+    <ProjectReference Include="..\NewspaperSellerSimulation\NewspaperSellerSimulation.csproj" />
+  </ItemGroup>
+
+</Project>

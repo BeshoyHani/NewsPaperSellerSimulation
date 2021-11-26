@@ -1,0 +1,110 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETStandard,Version=v4.5": {
+      "NewspaperSellerModels/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/NewspaperSellerModels.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/NewspaperSellerModels.dll": {}
+        }
+      },
+      "NewspaperSellerSimulation/1.0.0": {
+        "type": "project",
+        "dependencies": {
+          "NewspaperSellerModels": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/NewspaperSellerSimulation.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/NewspaperSellerSimulation.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "NewspaperSellerModels/1.0.0": {
+      "type": "project",
+      "path": "../NewspaperSellerModels/NewspaperSellerModels.csproj",
+      "msbuildProject": "../NewspaperSellerModels/NewspaperSellerModels.csproj"
+    },
+    "NewspaperSellerSimulation/1.0.0": {
+      "type": "project",
+      "path": "../NewspaperSellerSimulation/NewspaperSellerSimulation.csproj",
+      "msbuildProject": "../NewspaperSellerSimulation/NewspaperSellerSimulation.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETStandard,Version=v4.5": [
+      "NewspaperSellerModels >= 1.0.0",
+      "NewspaperSellerSimulation >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Besh\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\Besh\\Downloads\\Simulation\\New folder\\SimulationCore\\SimulationCore.csproj",
+      "projectName": "SimulationCore",
+      "projectPath": "C:\\Users\\Besh\\Downloads\\Simulation\\New folder\\SimulationCore\\SimulationCore.csproj",
+      "packagesPath": "C:\\Users\\Besh\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Besh\\Downloads\\Simulation\\New folder\\SimulationCore\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\Besh\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "netstandard4.5"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netstandard4.5": {
+          "targetAlias": "netstandard4.5",
+          "projectReferences": {
+            "C:\\Users\\Besh\\Downloads\\Simulation\\New folder\\NewspaperSellerModels\\NewspaperSellerModels.csproj": {
+              "projectPath": "C:\\Users\\Besh\\Downloads\\Simulation\\New folder\\NewspaperSellerModels\\NewspaperSellerModels.csproj"
+            },
+            "C:\\Users\\Besh\\Downloads\\Simulation\\New folder\\NewspaperSellerSimulation\\NewspaperSellerSimulation.csproj": {
+              "projectPath": "C:\\Users\\Besh\\Downloads\\Simulation\\New folder\\NewspaperSellerSimulation\\NewspaperSellerSimulation.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netstandard4.5": {
+        "targetAlias": "netstandard4.5",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\PROGRAM FILES\\DOTNET\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

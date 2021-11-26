@@ -36,3 +36,9 @@ F:\University\Forth Year\[2021-2022] [Students] [First Term] Simulation\Labs\Lab
 F:\University\Forth Year\[2021-2022] [Students] [First Term] Simulation\Labs\Lab 3\NewsPaperSeller\NewsPaperSellerSimulation\NewspaperSellerModels\obj\Debug\NewspaperSellerModels.csproj.CoreCompileInputs.cache
 F:\University\Forth Year\[2021-2022] [Students] [First Term] Simulation\Labs\Lab 3\NewsPaperSeller\NewsPaperSellerSimulation\NewspaperSellerModels\obj\Debug\NewspaperSellerModels.dll
 F:\University\Forth Year\[2021-2022] [Students] [First Term] Simulation\Labs\Lab 3\NewsPaperSeller\NewsPaperSellerSimulation\NewspaperSellerModels\obj\Debug\NewspaperSellerModels.pdb
+C:\Users\Besh\Downloads\Simulation\New folder\NewspaperSellerModels\bin\Debug\NewspaperSellerModels.dll
+C:\Users\Besh\Downloads\Simulation\New folder\NewspaperSellerModels\bin\Debug\NewspaperSellerModels.pdb
+C:\Users\Besh\Downloads\Simulation\New folder\NewspaperSellerModels\obj\Debug\NewspaperSellerModels.csproj.AssemblyReference.cache
+C:\Users\Besh\Downloads\Simulation\New folder\NewspaperSellerModels\obj\Debug\NewspaperSellerModels.csproj.CoreCompileInputs.cache
+C:\Users\Besh\Downloads\Simulation\New folder\NewspaperSellerModels\obj\Debug\NewspaperSellerModels.dll
+C:\Users\Besh\Downloads\Simulation\New folder\NewspaperSellerModels\obj\Debug\NewspaperSellerModels.pdb
