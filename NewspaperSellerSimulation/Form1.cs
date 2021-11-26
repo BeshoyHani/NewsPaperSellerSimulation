@@ -16,25 +16,38 @@ namespace NewspaperSellerSimulation
     public partial class Form1 : Form
     {
         readonly SimulationSystem SimulationSystem = new SimulationSystem();
-        SimulationCore SimulationCore;
+        readonly SimulationCore SimulationCore;
         public Form1()
         {
             InitializeComponent();
-            GetDataFromFile();
+            /*
+             
+             CHOOSE Test Case
+             
+             */
+
+            GetDataFromFile("TestCase1");
             // Start Simulation
             SimulationCore = new SimulationCore(SimulationSystem);
             SimulationCore.RunServer();
+            GUI();
             // End Simulation
-            string testingResult = TestingManager.Test(SimulationSystem, Constants.FileNames.TestCase3);
+
+            /*
+             
+             Change Test Case
+             
+             */
+            string testingResult = TestingManager.Test(SimulationSystem, Constants.FileNames.TestCase1);
             MessageBox.Show(testingResult);
         }
         //Read Data input from file
-        public void GetDataFromFile()
+        public void GetDataFromFile(string TestCase)
         {
             
             String Path = "TestCases\\";
             // Choosing test case
-            Path += "TestCase3.txt";
+            Path += TestCase+".txt";
             string[] lines = File.ReadAllLines(Path);
             SimulationSystem.NumOfNewspapers = int.Parse(lines[1]);
             SimulationSystem.NumOfRecords = int.Parse(lines[4]);
@@ -66,13 +79,36 @@ namespace NewspaperSellerSimulation
             for (int i = 0; i < 3; i++)
             {
 
-                DayTypeDistribution dayTypeDistribution = new DayTypeDistribution();
-                dayTypeDistribution.DayType = (i == 0) ? Enums.DayType.Good : (i == 1) ? Enums.DayType.Fair : Enums.DayType.Poor;
-                dayTypeDistribution.Probability = decimal.Parse(lines[i]);
+                DayTypeDistribution dayTypeDistribution = new DayTypeDistribution
+                {
+                    DayType = (i == 0) ? Enums.DayType.Good : (i == 1) ? Enums.DayType.Fair : Enums.DayType.Poor,
+                    Probability = decimal.Parse(lines[i])
+                };
                 dayTypeDistributionslist.Add(dayTypeDistribution);
             }
 
             return dayTypeDistributionslist;
+        }
+
+        public void GUI()
+        {
+
+            List<SimulationCase> ST = SimulationSystem.SimulationTable;
+            for (int i = 0; i < ST.Count; i++)
+            {
+                DGV_SimTable.Rows.Add(
+                  ST[i].DayNo, ST[i].RandomNewsDayType, ST[i].NewsDayType, ST[i].RandomDemand,
+                  ST[i].Demand, ST[i].SalesProfit, ST[i].LostProfit, ST[i].ScrapProfit, ST[i].DailyNetProfit
+                    );
+            }
+            DGV_SimTable.Rows.Add();
+            DGV_SimTable.Rows[ST.Count].Cells[5].Value = "$"  + SimulationSystem.PerformanceMeasures.TotalSalesProfit;
+            DGV_SimTable.Rows[ST.Count].Cells[6].Value = "$" + SimulationSystem.PerformanceMeasures.TotalLostProfit;
+            DGV_SimTable.Rows[ST.Count].Cells[7].Value = "$" + SimulationSystem.PerformanceMeasures.TotalScrapProfit;
+            DGV_SimTable.Rows[ST.Count].Cells[8].Value = "$" + SimulationSystem.PerformanceMeasures.TotalNetProfit;
+
+
+
         }
     }
     
